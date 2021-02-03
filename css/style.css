@@ -1,0 +1,49 @@
+* {box-sizing: border-box;}
+body {
+    font-family: 'Roboto', sans-serif;
+margin: 0;
+padding: 0;
+}
+
+#cab{display: flex; align-items: center; justify-content: space-between; padding: 10px 10%;}
+#cab div{}
+#cab div p{font-weight: 700; font-size: 40px; margin: 0;}
+#cab div p span{color: #D6000D;}
+#cab nav{display: flex; align-items: center; justify-content: space-between; width: 500px;}
+#cab nav a{text-decoration: none; color: #000;}
+#cab nav a:hover{color: #D6000D;}
+
+#banner{padding: 5% 10%; display: flex; align-items: center; justify-content: center;}
+#banner div{width: 50%; padding: 5% 7%;}
+#banner div:nth-of-type(){width: 50%;}
+#banner div img{width: 100%;}
+#banner p{font-weight: 700; font-size: 18px;}
+#banner h1{font-size: 50px; color: #D6000D;}
+
+#servicos{display: flex; align-items: center; justify-content: center; padding: 5% 10% 0% 10%;}
+#servicos div{width: 50%;}
+#servicos div img{width: 100%;}
+#servicos ul li{ list-style: none; font-size: 20px; margin: 10px 0px;}
+#servicos ul li span{display: inline-block; width: 20px; margin-right: 20px;}
+#servicos ul li span img{width: 100%;}
+
+#news{padding: 0 10%;}
+#news p{font-weight: 700; font-size: 20px;}
+#news input{height: 40px; border-radius: 10px; border: none; background-color: #ccc; padding: 0 10px;}
+
+#feedback{display: flex; align-items: center; justify-content: space-between; padding: 5% 10%;}
+#feedback article{width: 48%; background-color: #ccc; padding: 25px; border-radius: 15px; display: flex; align-items: center; justify-content: space-between;}
+#feedback article div{padding: 0 2%;}
+#feedback article span{display: block; width: 80px; border-radius: 50%;}
+#feedback article span img{width: 100%;  border-radius: 50%;}
+
+#rodape{background-color: #000; padding: 5% 10%; display: flex; color: #fff; align-items: flex-start; justify-content: space-between;}
+#rodape div{padding: 0;}
+#rodape div h1{font-size: 3.5em; margin: 0;}
+#rodape div h2{}
+#rodape div p{}
+#rodape div a{display: block; float: left; width: 50px; margin: 0 25px;}
+#rodape div a img{width: 100%;}
+
+.btn-codar{background-color: #D6000D; display: inline-flex; height: 40px; border-radius: 10px; align-items: center; justify-content: center; color: #fff !important; padding: 0 50px; text-decoration: none;}
+.btn-codar:hover{background: #f35a64;}
